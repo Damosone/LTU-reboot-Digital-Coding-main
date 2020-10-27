@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(241, 99, 241);
+    font-family: sans-serif;
+    line-height: 1.5em;
+
+}
+img{
+    width: 300px;
+}
+h1{
+    color:white;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+h2{
+    color: yellow;
+    font-size: 3em;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+}
+h3 {
+    color: rgb(0, 255, 98);
+
+}
+link {
+    color:black;
+
+}
+.box-1{
+         color: white;
+         background-color: rgb(216, 137, 216);
+         border-style: solid;
+         margin:auto;
+         padding:5px;
+         text-align: left;
+         
+
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:blue;
+}
