@@ -1,0 +1,15 @@
+a:link {
+    color:yellow
+}
+a:visited {
+    color:purple;
+    font-weight: bold;
+
+}
+A:hover {
+    color:green;
+}
+body{
+    color:white;
+    background-color: rosybrown;
+}
