@@ -1,0 +1,32 @@
+.container{
+    position: absolute;
+    
+}
+.container-logo {
+
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    border: 20px;
+}
+.container-search {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+
+}
+.mic{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+
+}
+.input {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 80%;
+    height: 30px;
+    border: none;
+
+}
