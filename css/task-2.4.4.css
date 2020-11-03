@@ -1,0 +1,26 @@
+.relative{
+    position: relative;
+    left:20px;
+    top: 20px;
+    height: 100px;
+    background-color: yellow;
+    border: 5px solid green;
+    size:50%;
+
+}
+.box1 {
+    
+    size:5%;
+    height: 100px;  
+    background-color: rosybrown;
+    border: 10px solid red;
+  
+
+}
+.container {
+    position: relative;
+
+}
+.img {
+    width: 400px;
+}
