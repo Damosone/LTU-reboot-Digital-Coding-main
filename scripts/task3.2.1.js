@@ -1,4 +1,4 @@
-function sentence (); {
+function sentence () {
         console.log ("this is the message from the console");
 
 }
