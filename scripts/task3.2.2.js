@@ -1,6 +1,6 @@
 
 function fullName( firstName, secondName ) {
-    Consloe.log ( firstName + secondName )
+    Consloe.log( firstName + secondName );
 
 }
 
