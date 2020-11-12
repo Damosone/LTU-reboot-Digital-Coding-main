@@ -1,22 +1,15 @@
-var temperature = 25;
 
+function procentageCalculator( number, procentage ){
 
-if (temperature < 0){
+    var procentageOf = ( number * procentage ) / 100;
+    //bodmas 
 
-    console.log('Stay Inside.');
-
-}  else if (temperature < 30){
-
-    console.log('Wear a coat and hat.');
+    return procentageOf;
 
 }
-if (temperature < 50){
 
-    console.log('Wear a coat.');
 
-}
-else{
 
-    console.log('Just pants and vest is fine.');
 
-}
+
+
