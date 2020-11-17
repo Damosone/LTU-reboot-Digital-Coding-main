@@ -7,7 +7,7 @@ function calculator ( number1, number2, operator){
     switch ( operator ) {
         case '+' :
             result = number1 +number2;
-            console.log( number1 +  ' +' + number2 + ' = ' + result );
+            console.log( number1 +  ' + ' + number2 + ' = ' + result );
 
         break ;
         case '-' :
@@ -18,7 +18,7 @@ function calculator ( number1, number2, operator){
 
         default :
             console.log("Math is not right here");
-            
+
             // error message
 
 
