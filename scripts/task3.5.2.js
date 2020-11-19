@@ -83,28 +83,12 @@ let shoppingCart = [
     
   }
   
-  document.write( '<div class="total-cost alert alert-primary" role="alert">£ ' + shoppingCartTotalPrice( shoppingCart ) + '</div>');
+  console.log(discoutForFood ( shoppingCart ) )
+  //document.write( '<div class="total-cost alert alert-primary" role="alert">£ ' + shoppingCartTotalPrice( shoppingCart ) + '</div>');
 
         }
 
 
     
-    //let totalPrice = 0; // 2. Create a variable inside the array called “totalPrice”
-    
-    // 3. Loop through each item in the array and add the value of the item to the total price, remember to account for the quantity.
-    //for ( let index = 0; index < arr.length; index++ ) { 
-    
-      
-     // if ( arr[ index].type = "food"){ totalPrice = (totalPrice + ( arr[ index ].price * arr[ index ].quantity )*1.2)}
-
-      //else {(totalPrice = totalPrice + ( arr[ index ].price * arr[ index ].quantity )};
-   
-    //}
-    
-    // 4. Return the totalPrice Variable
-    //return totalPrice.toFixed( 2 );
-    
-  //}
   
-  //document.write( '<div class="total-cost alert alert-primary" role="alert">£ ' + shoppingCartTotalPrice( shoppingCart ) + '</div>') ; // 5. Console.log the returned value -  I replaced with document.write()
   
