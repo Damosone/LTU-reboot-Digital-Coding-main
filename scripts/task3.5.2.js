@@ -1,9 +1,8 @@
 let shoppingCart = [
-    {​​
-        name:"loaf of bread",
-        type:"food",
-        quantity:1,
-        price:.85
+    {​​ name:"loaf of bread",
+      type:"food",
+      quantity:1,
+      price:.85
     }​​,
     {​​
         name:"multipack beans",
@@ -68,7 +67,8 @@ let shoppingCart = [
 
         for( var index = 0; index < arr.length; index++) {
 
-            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity );
+            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity )
+            if( arr[index].type = "food");
         }
         //4.Return the totalPrice variable
         return totalPrice.toFixed(2);
