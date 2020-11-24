@@ -3,17 +3,47 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Task 3.6.1</title>
+        <title>Task 3.6.1 </title>
         <style>
+            img { 
+
+                size: 100px;
+            }
 
         </style>
     </head>
     <body>
-        <h1>  </h1>
+        <h1> Let's try some DOM  </h1>
+
+        <p class="paragraph1 specific "> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste non sequi error libero atque consequatur, quidem officia officiis corporis ex? Alias rem necessitatibus veniam facere officia consectetur eos totam sit! </p>
+
+        <img  id="pic1" src=https://images.pexels.com/photos/3290400/pexels-photo-3290400.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260 alt="picture"/>
+
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis alias asperiores eos harum neque itaque ex? Eaque vel pariatur necessitatibus aliquam beatae ducimus sed consequuntur ab repellendus. Autem, alias libero. </p>
 
 
         
 
-       <script src="../scripts/task3.6.1.js"></script>
+       <script>
+
+           var paragraph = document.querySelectorAll('p');
+
+               for(var index = 0; index < paragraph.length; index++ ){
+
+                    paragraph[index].style.color='red';
+                 }
+
+                paragraph.style.color = 'red';
+                var image = document.querySelector('img');
+
+            
+             image.setAttribute( 'src', "https://images.pexels.com/photos/4785054/pexels-photo-4785054.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" );        
+
+
+
+
+       </script>
 
     </body> 
+</html>
