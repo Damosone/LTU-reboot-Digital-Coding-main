@@ -18,3 +18,16 @@ In today session I was indroduced to github, we explored VS code and we had intr
 Today's class was good we learn how to adapt js so it makes changes to the design of elements on page.
 
 DOM and NODES are good. It appear now slighlty more functional. 
+
+
+3.7 - 26/11/2020
+
+//Reflection
+
+Good class, some handy js. Enjoyed it.
+
+Need to reseach functions from the lesson a little bit further
+
+toggle - as did not work for all images.
+
+
