@@ -1,0 +1,26 @@
+.selection-container {
+margin-bottom: 30px;
+padding: 20px;
+
+}
+
+.main img {
+    width: 200px;
+
+}
+
+.active {
+    background-color: grey;
+    color: #fff;
+
+}
+
+.image-selection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px solid goldenrod;
+    width: 90%;
+
+}
+
