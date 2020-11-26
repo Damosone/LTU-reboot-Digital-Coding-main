@@ -1,34 +1,80 @@
-m<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Task 3.6.3 </title>
-        <style>
-       
-
-        </style>
+        <title>Task 3.7.1 </title>
+        <link rel="stylesheet" href="../styles/task3.7.1.css">
+        
     </head>
     <body>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quis eaque nesciunt. Soluta, maiores rerum ea ratione esse sequi sapiente accusamus molestiae accusantium aliquid officia animi iure ipsum vero dolores?
-        </p>
-     
-       <button id="myBtn">
-           Click me!!
-       </button>
+     <section class="main text-center">
 
-     
-        <script>
+        <div class="container">
 
-            var button = document.querySelector("button");
+            <h1> Animal filter using js </h1>
+
+            <div class="selection-container">
+                <button class="btn selection active" data-class="all"> ALL</button>
+                <button class="btn selection" data-class="elephants">Elephants</button>
+                <button class="btn selection" data-class="lions">Lions</button>
+                <button class="btn selection" data-class="tigers">Tigers</button>
+                <button class="btn selection" data-class="penguins">Penguins</button>
+            </div>
+
+        </div>
+
+        <!--Selection images -->
+        
+        <div class="image-selections">
+
+            <div class="images" data-class="elephants">
+                <img src=https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="" />
+            </div>
+
+            <div class="images" data-class="lions"></div>
+                <img src=https://images.pexels.com/photos/1598377/pexels-photo-1598377.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="" /> 
+
+            </div>
+
+            <div class="images" data-class="tigers">
+                <img src=https://images.pexels.com/photos/46251/sumatran-tiger-tiger-big-cat-stripes-46251.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="" />
+            </div>
+
+            <div class="images" data-class="penguins">
+                <img src=https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="" />
+            </div>
+
+            <div class="images" data-class="elephants">
+                <img src=https://images.pexels.com/photos/133394/pexels-photo-133394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+                 alt="" />
+            </div>
+
+            <div class="images" data-class="lions">
+                <img src=https://images.pexels.com/photos/1187987/pexels-photo-1187987.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="" /> 
+            </div>
+
+            <div class="images" data-class="tigers">
+                <img src=https://images.pexels.com/photos/3333554/pexels-photo-3333554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="" />
+            </div>
+
             
-            button.addEventListener("mouseover", function (event) {
-                alert("Don't be shy");
-            })
+            <div class="images" data-class="penguins">
+                <img src=https://images.pexels.com/photos/2078473/pexels-photo-2078473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="" />
+            </div>
 
-    </script>
+
+
+        
+        </div>
+
+     </section>
+    
+       <script src="../scripts/task3.7.1.js"></script>
+        <script>      </script>
 
     </body> 
+
+    <!-- https://github.com/pixel2code/LTU-Reboot-Digital-Coding/blob/Cohort-6/scripts/task-3.7.1.js -->
 </html>
