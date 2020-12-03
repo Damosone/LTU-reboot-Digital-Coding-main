@@ -8,12 +8,62 @@
         
     </head>
     <body>
+        <header> 
+            <h1>Java script task 4.2.2</h1>
+        </header>
+        <main>
+            <p> To view please check console</p>
+        </main>
 
     
        <script>
-           
+           var objBookList = [
+               {
+                   title:"The Hobbit",
+                   author:"JRR Tolkien",
+                   hasRead: false,
+               },
+               {
+                   title:"The lord of the Rings",
+                   author:"JRR Tolkien",
+                   hasRead: true,
+               },
+               {
+                   title:"Harry Potter",
+                   author:"J k Rowling",
+                   hasRead: true,
+               },
+           ];
+
+           //LOOP through each item in the book list array
+           for(counter = 0; counter < arrBookList.length; counter ++){
+               var objCurrentBook = arrBookList[counter];
+
+        
+               //THEN crate a message to output that is {title} by {author}
+               var strMessage = objCurrentBook.title + " by" + objCurrentBook.author;
+               //IF the book has already been read
+               if(objCurrentbook.hasRead){
+                
+                    //THEN prepend the message with "You need to read"
+
+                strMessage = "You need to read  " + strMessage;
+               }
+
+               //ELSE 
+               else {
+                    
+                    //THEN pepend the message with "you need to read"
+                    strMessage = " You need to read " + strMessage;
+                    }
+        
+           console.log(strMessage);
+        }
+
+        
 
 
+        
 
        </script>
     
